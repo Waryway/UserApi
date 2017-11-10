@@ -1,0 +1,21 @@
+{
+    "name": "waryway/user-api",
+    "description": "React server for use in micro-service applications",
+    "type": "application",
+    "license": "MIT",
+	"require": {
+        "waryway/service": "*"
+    },
+    "authors": [
+        {
+            "name": "Kyle Wiering",
+            "email": "kyle@waryway.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Waryway\\UserApi\\": "src/"
+		}
+	},
+    "minimum-stability": "dev"
+}

@@ -4,7 +4,8 @@
     "type": "application",
     "license": "MIT",
 	"require": {
-        "waryway/service": "*"
+        "waryway/micro-service-engine": "*",
+        "lcobucci/jwt": "3.2.2"
     },
     "authors": [
         {
@@ -17,5 +18,6 @@
 			"Waryway\\UserApi\\": "src/"
 		}
 	},
+	
     "minimum-stability": "dev"
 }
